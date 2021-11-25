@@ -1,0 +1,6 @@
+framework module Pods_WeChatCustomerServiceLib_Tests {
+  umbrella header "Pods-WeChatCustomerServiceLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

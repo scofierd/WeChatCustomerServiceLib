@@ -1,0 +1,16 @@
+PODS:
+  - WeChatCustomerServiceLib (1.0.0)
+
+DEPENDENCIES:
+  - WeChatCustomerServiceLib (from `../`)
+
+EXTERNAL SOURCES:
+  WeChatCustomerServiceLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WeChatCustomerServiceLib: df4f90b63b970f36582c864e5d48dbe2bcb24385
+
+PODFILE CHECKSUM: 1cd07cf148ed5a55bd02d5657169c0b557a7ac0b
+
+COCOAPODS: 1.11.2

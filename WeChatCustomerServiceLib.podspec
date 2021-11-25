@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WeChatCustomerServiceLib'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of WeChatCustomerServiceLib.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/2205873638@qq.com/WeChatCustomerServiceLib'
+  s.homepage         = 'https://github.com/scofierd/WeChatCustomerServiceLib.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '2205873638@qq.com' => '2205873638@q.com' }
-  s.source           = { :git => 'https://github.com/2205873638@qq.com/WeChatCustomerServiceLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/scofierd/WeChatCustomerServiceLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'WeChatCustomerServiceLib/Classes/**/*'
+  s.static_framework = true
+  s.vendored_libraries = 'WeChatCustomerServiceLib/Classes/Frameworks/*.a'
   
   # s.resource_bundles = {
   #   'WeChatCustomerServiceLib' => ['WeChatCustomerServiceLib/Assets/*.png']
