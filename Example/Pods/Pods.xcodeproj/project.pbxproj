@@ -13,13 +13,13 @@
 		51AEFF7FBF66AF4728BAA5C58656030A /* Pods-WeChatCustomerServiceLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5CD3E31BDD890A3C30AABB87DB173 /* Pods-WeChatCustomerServiceLib_Example-dummy.m */; };
 		582109B9C5743C54BA841AA37C6F5C22 /* WeChatCustomerServiceLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 099CF69DDC03832EF62AB8592FE67065 /* WeChatCustomerServiceLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60BB53F21B046DA8662CFA20791C3571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6E0160D3D2DDD779AB2602A079798A3E /* libWeChatSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = EBB45C052FC2E103621BE96D0C219E99 /* libWeChatSDK.a */; };
 		79C01A6A8DB095167BC15B4CED645242 /* Pods-WeChatCustomerServiceLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2759BDF8101E1DF349288925930D07 /* Pods-WeChatCustomerServiceLib_Tests-dummy.m */; };
 		910145EBC46855E60343300C4CA325D3 /* WeChatCustomerServiceLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7005DE9094A4E1E0D63CEC7347EDD2 /* WeChatCustomerServiceLib-dummy.m */; };
 		99C0ED0B35DCD646F2CB3BACF3D19FAB /* Pods-WeChatCustomerServiceLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55018771BD2C93D1D07E262102E4B1D1 /* Pods-WeChatCustomerServiceLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A54B64991590F180066715DBDAFD3B1 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9387BB70597872BF495C9C1C0BBD09 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A406F0E8B1DB1DB3243952E927C2F6FD /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = B70F61EC4D1365FECF80B9DB7F7C6F43 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACA85C730B862DF2ACD71FD543A869EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B0C270C22750E9F300E92457 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C270C12750E9F300E92457 /* libWeChatSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		099CF69DDC03832EF62AB8592FE67065 /* WeChatCustomerServiceLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeChatCustomerServiceLib-umbrella.h"; sourceTree = "<group>"; };
-		1ADF715D39CE5F69B6757C995F702AFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1ADF715D39CE5F69B6757C995F702AFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2724505AE33AF9F01821D92370D8C592 /* Pods-WeChatCustomerServiceLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeChatCustomerServiceLib_Example.modulemap"; sourceTree = "<group>"; };
 		2C9387BB70597872BF495C9C1C0BBD09 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatCustomerServiceLib/Classes/WechatAuthSDK.h; sourceTree = "<group>"; };
 		3DFDFE1ADE18F3FEA0722CADD3680D5B /* Pods-WeChatCustomerServiceLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeChatCustomerServiceLib_Tests.modulemap"; sourceTree = "<group>"; };
@@ -51,16 +51,15 @@
 		57294DB1E0307E20E28192B1FC8F6F92 /* Pods-WeChatCustomerServiceLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeChatCustomerServiceLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		57DCD4AC693C850D0A50E307ABEEBA80 /* Pods-WeChatCustomerServiceLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeChatCustomerServiceLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5E2759BDF8101E1DF349288925930D07 /* Pods-WeChatCustomerServiceLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeChatCustomerServiceLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		5EF985FAD10F8339CE6C0638AED0D647 /* WeChatCustomerServiceLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WeChatCustomerServiceLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5EF985FAD10F8339CE6C0638AED0D647 /* WeChatCustomerServiceLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WeChatCustomerServiceLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6F5D44625E3B7BCBEEA640D8309A046E /* Pods-WeChatCustomerServiceLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeChatCustomerServiceLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		81F3DBCBC17B588EA164BC2B1037A65A /* WeChatCustomerServiceLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeChatCustomerServiceLib.release.xcconfig; sourceTree = "<group>"; };
 		840AD0EDC65C015AA5052D9197326E46 /* Pods-WeChatCustomerServiceLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WeChatCustomerServiceLib_Example"; path = Pods_WeChatCustomerServiceLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		880E5C9CA201ECE85EB7DFE8703FD37C /* Pods-WeChatCustomerServiceLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeChatCustomerServiceLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		90C37B2D218DE49470B9040209ACD2EB /* Pods-WeChatCustomerServiceLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeChatCustomerServiceLib_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E398A4BF3765D53421AF4E761825C38 /* Pods-WeChatCustomerServiceLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeChatCustomerServiceLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B0C270C12750E9F300E92457 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		B70F61EC4D1365FECF80B9DB7F7C6F43 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatCustomerServiceLib/Classes/WXApi.h; sourceTree = "<group>"; };
 		BCE8296B3859C1827A4A1F5972A38104 /* Pods-WeChatCustomerServiceLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeChatCustomerServiceLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8B1E74E506C7A199240893A5F2A0B0E /* WeChatCustomerServiceLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeChatCustomerServiceLib.debug.xcconfig; sourceTree = "<group>"; };
@@ -71,7 +70,8 @@
 		E1D5CD3E31BDD890A3C30AABB87DB173 /* Pods-WeChatCustomerServiceLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeChatCustomerServiceLib_Example-dummy.m"; sourceTree = "<group>"; };
 		E223885A0D16BA2B3FCD896215A4F364 /* Pods-WeChatCustomerServiceLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeChatCustomerServiceLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E3730F7E77FF6146E0318B3FE6F84054 /* Pods-WeChatCustomerServiceLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeChatCustomerServiceLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E9F4CF61F22C96842BD6A5B4FB836FB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E9F4CF61F22C96842BD6A5B4FB836FB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EBB45C052FC2E103621BE96D0C219E99 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		F6C26EECC38632869A86DFFAF39DD4FF /* Pods-WeChatCustomerServiceLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WeChatCustomerServiceLib_Tests"; path = Pods_WeChatCustomerServiceLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EFD363AD5FE24E29726A75A48850E5 /* Pods-WeChatCustomerServiceLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeChatCustomerServiceLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAA29BBBC3057870ACDDAB803AB4D8C2 /* WeChatCustomerServiceLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WeChatCustomerServiceLib-Info.plist"; sourceTree = "<group>"; };
@@ -82,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0C270C22750E9F300E92457 /* libWeChatSDK.a in Frameworks */,
 				60BB53F21B046DA8662CFA20791C3571 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,10 +118,10 @@
 		4AEC9508B72AE73383C31352AABA3483 /* WeChatCustomerServiceLib */ = {
 			isa = PBXGroup;
 			children = (
-				B0C270C02750E9E900E92457 /* Frameworks */,
 				2C9387BB70597872BF495C9C1C0BBD09 /* WechatAuthSDK.h */,
 				B70F61EC4D1365FECF80B9DB7F7C6F43 /* WXApi.h */,
 				E070DA33D94D9CB435FEA9CE4F7ADCAA /* WXApiObject.h */,
+				F8CC855825EF681D8A1F52E563025DFB /* Lib */,
 				15CB173AB21E53C3CFAC3F7F0552A9CE /* Pod */,
 				CE11F1EBA7F1113114FF0CB23CC09E8E /* Support Files */,
 			);
@@ -171,14 +170,6 @@
 			);
 			name = "Pods-WeChatCustomerServiceLib_Tests";
 			path = "Target Support Files/Pods-WeChatCustomerServiceLib_Tests";
-			sourceTree = "<group>";
-		};
-		B0C270C02750E9E900E92457 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B0C270C12750E9F300E92457 /* libWeChatSDK.a */,
-			);
-			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		BB3E4FD244AD17382CAA235F3E6C3F01 /* Development Pods */ = {
@@ -237,6 +228,15 @@
 			);
 			name = "Pods-WeChatCustomerServiceLib_Example";
 			path = "Target Support Files/Pods-WeChatCustomerServiceLib_Example";
+			sourceTree = "<group>";
+		};
+		F8CC855825EF681D8A1F52E563025DFB /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EBB45C052FC2E103621BE96D0C219E99 /* libWeChatSDK.a */,
+			);
+			name = Lib;
+			path = WeChatCustomerServiceLib/Classes/Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0160D3D2DDD779AB2602A079798A3E /* libWeChatSDK.a in Sources */,
 				910145EBC46855E60343300C4CA325D3 /* WeChatCustomerServiceLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -706,7 +707,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
